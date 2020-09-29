@@ -10,11 +10,18 @@ public class String_toChar {
 		
 		char[] array=name.toCharArray();
 		
-		for(int i=0;i<name.length();i++) {
+		/*for(int i=0;i<name.length();i++) {
 		
 		
-		System.out.println("char value is "+array[i]);
+		System.out.println("char value is "+array[i]);*/
 
+		
+		for (char c : array) {
+			
+			
+		System.out.println(c);
+			
+		}
 	}
 	}
-}
+

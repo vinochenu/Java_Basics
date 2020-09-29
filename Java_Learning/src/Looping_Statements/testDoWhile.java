@@ -12,7 +12,7 @@ public class testDoWhile {
 		{
 			System.out.println(i);
 			i=i+2;
-		} while(i<100);
+		} while(i<10);
 
 	}
 

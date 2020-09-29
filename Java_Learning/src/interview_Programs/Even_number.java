@@ -10,6 +10,7 @@ public class Even_number {
 		System.out.println("Enter the value");
 		int input=sc.nextInt();
 		
+		
 		if(input%2==0) {
 			System.out.println("value is even number");
 		}
